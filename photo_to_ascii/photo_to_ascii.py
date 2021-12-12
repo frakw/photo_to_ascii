@@ -54,7 +54,6 @@ window = tk.Tk()
 tkFont.Font(family='Consolas', size=15)#要放在window = tk.Tk()之後
 window.title('圖片轉ascii code')
 window.geometry('1280x900')
-window.iconbitmap(R'C:/Users/t4w32/Documents/vscode/photo_to_ascii/icon.ico')
 
 open_file = tk.Button(window,text='開啟檔案',command=get_file_path)
 transfer = tk.Button(window,text='轉換',command=print_ascii)
